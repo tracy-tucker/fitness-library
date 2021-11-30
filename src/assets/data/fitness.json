@@ -1,0 +1,16 @@
+{
+  "tags": ["core", "legs", "arms"],
+  "tools": ["yoga mat", "yoga ball"],
+  "setup": [
+    "unroll mat onto floor",
+    "make sure yoga ball is aired up, but not too much"
+  ],
+  "instructions": [
+    "Lie face-up on mat",
+    "Raise legs and place yoga ball underneath legs. ",
+    "lift hips up towards ceiling while keeping legs straight",
+    "Hold for one second.",
+    "Lower hips back to the mat for one second",
+    "Repeat hip lifts and one-second holds for 10 repititions"
+  ]
+}
