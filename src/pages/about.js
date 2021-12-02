@@ -7,7 +7,6 @@ const About = () => {
   return (
     <Layout>
       <div>
-        <h1>About FunFitness</h1>
         <main className="page">
           <section className="about-page">
             <article>
