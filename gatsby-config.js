@@ -14,18 +14,18 @@ module.exports = {
     person: {
       name: "jane",
       age: 32,
-      simpleData: ["item 1", "item 2"],
-      complexData: [
-        {
-          name: "john",
-          age: 38,
-        },
-        {
-          name: "jane",
-          age: 32,
-        },
-      ],
     },
+    simpleData: ["item 1", "item 2"],
+    complexData: [
+      {
+        name: "john",
+        age: 38,
+      },
+      {
+        name: "jane",
+        age: 32,
+      },
+    ],
   },
   plugins: [
     `gatsby-plugin-styled-components`,
