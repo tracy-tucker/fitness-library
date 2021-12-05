@@ -3,6 +3,9 @@ import { useStaticQuery, graphql } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import styled from "styled-components"
 
+// getImage - gatsby-plugin-image helper function.
+// useful when iterating over images and an image is missing/doesn't exist.
+
 const query = graphql`
   {
     allFile(filter: { extension: { ne: "svg" } }) {
@@ -44,15 +47,15 @@ const Gallery = () => {
   )
 }
 
-const Wrapper = style.section`
-    display:flex;
-    flex-wrap: wrap;
-    .item {
-        margin-right: 1rem;
-    }
-    .gallery-img {
-        border-radius: 1rem;
-    }
+const Wrapper = styled.section`
+  display: flex;
+  flex-wrap: wrap;
+  .item {
+    margin-right: 1rem;
+  }
+  .gallery-img {
+    border-radius: 1rem;
+  }
 `
 
 export default Gallery
