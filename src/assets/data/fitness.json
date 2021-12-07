@@ -1,16 +1,15 @@
 {
   "tags": ["core", "legs", "arms"],
-  "tools": ["yoga mat", "yoga ball"],
+  "equipment": ["rope", "yoga mat"],
   "setup": [
     "unroll mat onto floor",
-    "make sure yoga ball is aired up, but not too much"
+    "make sure ropes are extended and laying in front of yoga mat"
   ],
   "instructions": [
-    "Lie face-up on mat",
-    "Raise legs and place yoga ball underneath legs. ",
-    "lift hips up towards ceiling while keeping legs straight",
-    "Hold for one second.",
-    "Lower hips back to the mat for one second",
-    "Repeat hip lifts and one-second holds for 10 repititions"
+    "Stand on mat in front of ropes",
+    "Grab the ropes, one in each hand",
+    "Keeping your arm straight, raise your right arm in front of you to shoulder height in a quick whipping motion",
+    "Alternate each arm simultaniously and repetitvely",
+    "Stop once you've reached 25 repetitions for each arm"
   ]
 }
