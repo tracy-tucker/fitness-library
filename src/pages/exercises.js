@@ -1,8 +1,15 @@
 import React from "react"
 import Layout from "../components/Layout"
+import AllExercises from "../components/AllExercises"
 
-const Exercises = () => {
-  return <Layout>exercises list page</Layout>
+const exercises = () => {
+  return (
+    <main className="page">
+      <Layout>
+        <AllExercises />
+      </Layout>
+    </main>
+  )
 }
 
-export default Exercises
+export default exercises

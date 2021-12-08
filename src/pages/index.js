@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 import { StaticImage } from "gatsby-plugin-image"
+import AllExercises from "../components/AllExercises"
 
 export default function Home() {
   return (
@@ -21,8 +22,8 @@ export default function Home() {
             </div>
           </div>
         </header>
+        <AllExercises />
       </main>
-      <h1>Hello page!</h1>
     </Layout>
   )
 }
