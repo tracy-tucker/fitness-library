@@ -24,12 +24,13 @@ const query = graphql`
 
 const AllExercises = () => {
   const data = useStaticQuery(query)
-  console.log(data)
+  const exercises = data.allContentfulExercise.nodes
+  console.log(exercises)
   return (
     <div>
       <h4>All Exercises</h4>
-      <TagsList />
-      <ExercisesList />
+      <TagsList exercises={exercises} />
+      <ExercisesList exercises={exercises} />
     </div>
   )
 }
