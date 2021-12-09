@@ -6,7 +6,9 @@ const exercises = () => {
   return (
     <main className="page">
       <Layout>
-        <AllExercises />
+        <main className="page">
+          <AllExercises />
+        </main>
       </Layout>
     </main>
   )
