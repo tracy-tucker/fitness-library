@@ -1,9 +1,14 @@
 import React from "react"
 import Layout from "../components/Layout"
 import { StaticImage } from "gatsby-plugin-image"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
+import ExercisesList from "../components/ExercisesList"
 
-const About = () => {
+const About = ({
+  data: {
+    allContentfulExercise: { nodes: exercises },
+  },
+}) => {
   return (
     <Layout>
       <div>
@@ -32,10 +37,33 @@ const About = () => {
               placeholder="blurred"
             />
           </section>
+          <section className="featured-exercises">
+            <h5>Check out these moves!</h5>
+            <ExercisesList exercises={exercises} />
+          </section>
         </main>
       </div>
     </Layout>
   )
 }
+
+export const query = graphql`
+  {
+    allContentfulExercise(
+      sort: { order: ASC, fields: title }
+      filter: { featured: { eq: true } }
+    ) {
+      nodes {
+        id
+        title
+        sets
+        repetitions
+        image {
+          gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
+        }
+      }
+    }
+  }
+`
 
 export default About
