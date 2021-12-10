@@ -1,7 +1,7 @@
 import React from "react"
 
 const TagsList = () => {
-  return <div>this is tagslist</div>
+  return <div className="tag-container">this is tagslist</div>
 }
 
 export default TagsList

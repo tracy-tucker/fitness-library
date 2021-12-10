@@ -28,7 +28,6 @@ const AllExercises = () => {
   // console.log(exercises)
   return (
     <section className="exercises-container">
-      <h4>All Exercises</h4>
       <TagsList exercises={exercises} />
       <ExercisesList exercises={exercises} />
     </section>

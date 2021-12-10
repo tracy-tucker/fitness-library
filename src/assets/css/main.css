@@ -557,7 +557,7 @@ form > *:last-child {
 /* Exercises */
 /*#########*/
 .exercises-container {
-  /* display: grid; */
+  display: grid;
   gap: 2rem 1rem;
 }
 
