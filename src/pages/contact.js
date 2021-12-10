@@ -1,7 +1,10 @@
 import React from "react"
 import Layout from "../components/Layout"
+import { Link, graphql } from "gatsby"
+import ExercisesList from "../components/ExercisesList"
 
-const Contact = () => {
+const Contact = ({ data }) => {
+  const exercises = data.allContentfulExercise.nodes
   return (
     <Layout>
       <main className="page">
@@ -44,9 +47,32 @@ const Contact = () => {
             </form>
           </article>
         </section>
+        <section className="featured-exercises">
+          <h5>Check out these moves!</h5>
+          <ExercisesList exercises={exercises} />
+        </section>
       </main>
     </Layout>
   )
 }
+
+export const query = graphql`
+  {
+    allContentfulExercise(
+      sort: { order: ASC, fields: title }
+      filter: { featured: { eq: true } }
+    ) {
+      nodes {
+        id
+        title
+        sets
+        repetitions
+        image {
+          gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
+        }
+      }
+    }
+  }
+`
 
 export default Contact
