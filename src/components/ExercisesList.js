@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import slugify from "slugify"
 
 //providing a default empty array to avoid errors if exercise missing
 const ExercisesList = ({ exercises = [] }) => {
@@ -12,8 +13,9 @@ const ExercisesList = ({ exercises = [] }) => {
         const { id, title, image, repetitions, sets } = exercise
         // getImage helper function
         const pathToImage = getImage(image)
+        const slug = slugify(title, { lower: true })
         return (
-          <Link key={id} to={`/${title}`} className="exercise">
+          <Link key={id} to={`/${slug}`} className="exercise">
             <GatsbyImage
               image={pathToImage}
               className="exercise-img"
