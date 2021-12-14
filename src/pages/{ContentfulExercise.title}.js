@@ -25,8 +25,24 @@ const ExerciseTemplate = ({ data }) => {
           <article className="exercise-info">
             <h2>{title}</h2>
             <p>{description}</p>
-            <div className="exercise-icons">//</div>
-            {/* tags */}
+            <div className="exercise-icons">
+              {/* tags */}
+              <article>
+                <BsClock />
+                <h5>repetitions</h5>
+                <p>{repetitions}</p>
+              </article>
+              <article>
+                <BsClockHistory />
+                <h5>execution time</h5>
+                <p>{executionTime}</p>
+              </article>
+              <article>
+                <BsPeople />
+                <h5>sets</h5>
+                <p>{sets}</p>
+              </article>
+            </div>
             <p className="exercise-tags">
               Tags :
               {tags.map((tag, index) => {
@@ -40,7 +56,44 @@ const ExerciseTemplate = ({ data }) => {
           </article>
           <section className="exercise-hero"></section>
           {/* rest of content */}
-          <section className="exercise-content"></section>
+          <section className="exercise-content">
+            <article>
+              <h4>instructions</h4>
+              {instructions.map((item, index) => {
+                return (
+                  <div key={index} className="single-instruction">
+                    <header>
+                      <p>step {index + 1}</p>
+                      <div></div>
+                    </header>
+                    <p>{item}</p>
+                  </div>
+                )
+              })}
+            </article>
+            <article className="second-column">
+              <div>
+                <h4>setup</h4>
+                {setup.map((item, index) => {
+                  return (
+                    <p key={index} className="single-ingredient">
+                      {item}
+                    </p>
+                  )
+                })}
+              </div>
+              <div>
+                <h4>tools</h4>
+                {equipment.map((item, index) => {
+                  return (
+                    <p key={index} className="single-tool">
+                      {item}
+                    </p>
+                  )
+                })}
+              </div>
+            </article>
+          </section>
         </div>
       </main>
     </Layout>
