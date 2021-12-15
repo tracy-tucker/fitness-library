@@ -4,6 +4,7 @@
 // the build lifecycle.
 
 const path = require("path")
+const slugify = require("slugify")
 exports.createPages = async ({ graphql, actions }) => {
   // destructuring action props
   const { createPage } = actions
@@ -24,12 +25,13 @@ exports.createPages = async ({ graphql, actions }) => {
 
   result.data.allContentfulExercise.nodes.forEach(exercise => {
     exercise.content.tags.forEach(tag => {
+      const tagSlug = slugify(tag, { lower: true })
       createPage({
         // 3 properties are needed in order to create the page.
         // path of the created page
         // a component to populate the page
         // a variable to use in the query
-        path: `/${tag}`,
+        path: `tags/${tagSlug}`,
         component: path.resolve(`src/templates/tag-template.js`),
         context: {
           tag: tag,
