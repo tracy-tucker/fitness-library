@@ -1,8 +1,9 @@
 import React from "react"
 import Layout from "../components/Layout"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import ExercisesList from "../components/ExercisesList"
 
+// Form is a FormSpree.io contact form
 const Contact = ({ data }) => {
   const exercises = data.allContentfulExercise.nodes
   return (
@@ -28,7 +29,11 @@ const Contact = ({ data }) => {
             </p>
           </article>
           <article>
-            <form className="form contact-form">
+            <form
+              className="form contact-form"
+              action="https://formspree.io/f/xdoboyag"
+              method="POST"
+            >
               <div className="form-row">
                 <label htmlFor="name">Your Name</label>
                 <input type="text" name="name" id="name" />
