@@ -13,7 +13,7 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: "Fun Fitness",
-    description: "Simple fitness instruction",
+    description: "Making fitness fun for everyone",
     author: "Tracy Tucker",
     person: {
       name: "jane",
