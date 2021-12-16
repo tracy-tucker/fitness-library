@@ -2,12 +2,14 @@ import React from "react"
 import Layout from "../components/Layout"
 import { graphql } from "gatsby"
 import ExercisesList from "../components/ExercisesList"
+import SEO from "../components/SEO"
 
 // Form is a FormSpree.io contact form
 const Contact = ({ data }) => {
   const exercises = data.allContentfulExercise.nodes
   return (
     <Layout>
+      <Seo title="Contact" />
       <main className="page">
         <section className="contact-page">
           <article className="contact-info">
