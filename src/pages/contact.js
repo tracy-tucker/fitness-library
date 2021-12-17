@@ -13,7 +13,7 @@ const Contact = ({ data }) => {
       <main className="page">
         <section className="contact-page">
           <article className="contact-info">
-            <h3>Let's get in touch!</h3>
+            <h3>Get in touch!</h3>
             <p>
               Waistcoat asymmetrical knausgaard tacos wolf pop-up echo park
               bitters pinterest.
