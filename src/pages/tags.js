@@ -10,7 +10,7 @@ const Tags = ({ data }) => {
 
   return (
     <Layout>
-      <Seo title="Tags" />
+      <SEO title="Tags" />
       <main className="page">
         <section className="tags-page">
           {newTags.map((tag, index) => {

@@ -9,7 +9,7 @@ const Contact = ({ data }) => {
   const exercises = data.allContentfulExercise.nodes
   return (
     <Layout>
-      <Seo title="Contact" />
+      <SEO title="Contact" />
       <main className="page">
         <section className="contact-page">
           <article className="contact-info">

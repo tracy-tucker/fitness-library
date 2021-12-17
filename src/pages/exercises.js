@@ -7,7 +7,7 @@ const exercises = () => {
   return (
     <main className="page">
       <Layout>
-        <Seo title="Exercises" />
+        <SEO title="Exercises" />
         <main className="page">
           <AllExercises />
         </main>

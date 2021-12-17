@@ -4,6 +4,7 @@ import Layout from "../components/Layout"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { BsClockHistory, BsClock, BsPeople } from "react-icons/bs"
 import slugify from "slugify"
+import SEO from "../components/SEO"
 
 const ExerciseTemplate = ({ data }) => {
   const {
@@ -19,6 +20,7 @@ const ExerciseTemplate = ({ data }) => {
   const { tags, instructions, setup, equipment } = content
   return (
     <Layout>
+      <SEO title={title} description={description} />
       <main className="page">
         <div className="exercise-page">
           {/* hero */}
