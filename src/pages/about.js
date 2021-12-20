@@ -19,7 +19,7 @@ const About = ({
             <h2>PBR&B XOXO mlkshk, listicle actually.</h2>
             <p>
               Taxidermy forage glossier letterpress heirloom before they sold
-              out you probably haven't heard of them banh mi biodiesel chia.
+              out you probably haven't heard of them banh mi, biodiesel chia.
             </p>
             <p>
               Taiyaki tumblr flexitarian jean shorts brunch, aesthetic salvia
