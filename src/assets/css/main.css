@@ -15,7 +15,8 @@
   --primary-50: #ebdf85;
   /* --primary-100: #c1beff; */
   --primary-100: #f7ea8c;
-  --primary-200: #aaa5ff;
+  /* --primary-200: #aaa5ff; */
+  --primary-200: #bb2020;
   --primary-300: #938dff;
   --primary-400: #7b74ff;
   /* main */
@@ -743,7 +744,7 @@ form > *:last-child {
   font-weight: 600;
 }
 .exercise-tags a {
-  background: var(--primary-500);
+  background: var(--primary-200);
   border-radius: var(--borderRadius);
   color: var(--white);
   padding: 0.05rem 0.5rem;
@@ -775,7 +776,7 @@ form > *:last-child {
 .single-instruction header p {
   text-transform: uppercase;
   font-weight: 600;
-  color: var(--primary-500);
+  color: var(--primary-200);
   margin-bottom: 0;
 }
 
