@@ -5,14 +5,12 @@ import SEO from "../components/SEO"
 
 const exercises = () => {
   return (
-    <main className="page">
-      <Layout>
-        <SEO title="Exercises" />
-        <main className="page">
-          <AllExercises />
-        </main>
-      </Layout>
-    </main>
+    <Layout>
+      <SEO title="Exercises" />
+      <main className="page">
+        <AllExercises />
+      </main>
+    </Layout>
   )
 }
 
