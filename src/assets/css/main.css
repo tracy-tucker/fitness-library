@@ -397,8 +397,8 @@ form > *:last-child {
 }
 .active-link {
   /* color: var(--primary-500); */
-  color: var(--black);
-  background: var(--primary-500);
+  color: var(--white);
+  background: var(--primary-200);
   border-radius: 5px;
 }
 .contact-link {
