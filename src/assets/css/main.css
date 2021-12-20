@@ -798,6 +798,6 @@ form > *:last-child {
 .single-tool {
   border-bottom: 1px solid var(--grey-500);
   padding-bottom: 0.75rem;
-  color: var(--primary-500);
+  color: var(--primary-200);
   text-transform: capitalize;
 }
