@@ -677,7 +677,7 @@ form > *:last-child {
 }
 .tag {
   /* background: var(--grey-700); */
-  background: var(--grey-700);
+  background: var(--black);
   border-radius: var(--borderRadius);
   text-align: center;
   color: var(--white);
