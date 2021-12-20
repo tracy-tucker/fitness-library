@@ -202,7 +202,8 @@ button,
 .btn {
   cursor: pointer;
   appearance: none;
-  color: var(--white);
+  /* color: var(--white); */
+  color: var(--black);
   background: var(--primary-500);
   border: none;
   border-radius: var(--borderRadius);
@@ -214,7 +215,8 @@ button,
 }
 button:hover,
 .btn:hover {
-  color: var(--white);
+  /* color: var(--white); */
+  color: var(--black);
   background: var(--primary-700);
   box-shadow: var(--shadow-2);
 }
@@ -393,7 +395,10 @@ form > *:last-child {
   transition: var(--transition);
 }
 .active-link {
-  color: var(--primary-500);
+  /* color: var(--primary-500); */
+  color: var(--black);
+  background: var(--primary-500);
+  border-radius: 5px;
 }
 .contact-link {
   display: flex;
