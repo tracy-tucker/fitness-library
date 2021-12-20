@@ -56,8 +56,8 @@
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
   /* typography */
   --defaultFontSize: 87.5%;
-  /* --headingFont: "Inconsolata", monospace; */
-  --headingFont: "Roboto", sans-serif;
+  --headingFont: "Inconsolata", monospace;
+  /* --headingFont: "Roboto", sans-serif; */
   --bodyFont: "Montserrat", sans-serif;
   --smallText: 0.8em;
   --extraSmallText: 0.7em;
