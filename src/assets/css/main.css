@@ -507,7 +507,7 @@ form > *:last-child {
 @media screen and (min-width: 992px) {
   .about-page {
     grid-template-columns: 1fr 1fr;
-    align-items: bottom center;
+    align-items: center;
     height: 400px;
   }
   .about-img {

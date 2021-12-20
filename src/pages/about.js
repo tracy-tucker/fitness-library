@@ -18,14 +18,12 @@ const About = ({
           <article>
             <h2>PBR&B XOXO mlkshk, listicle actually.</h2>
             <p>
-              Palo santo cardigan post-ironic austin pabst, asymmetrical franzen
-              hot chicken la croix photo booth. Deep v unicorn cray, tattooed
-              celiac put a bird on it 90's asymmetrical.
+              Taxidermy forage glossier letterpress heirloom before they sold
+              out you probably haven't heard of them banh mi biodiesel chia.
             </p>
             <p>
-              Palo santo cardigan post-ironic austin pabst, asymmetrical franzen
-              hot chicken la croix photo booth. Deep v unicorn cray, tattooed
-              celiac put a bird on it 90's asymmetrical.
+              Taiyaki tumblr flexitarian jean shorts brunch, aesthetic salvia
+              retro.
             </p>
             <Link to="/contact" className="btn">
               Contact Us
