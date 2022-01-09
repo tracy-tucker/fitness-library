@@ -42,3 +42,7 @@ export const query = graphql`
 `
 
 export default Tags
+
+// Using the Layout component as a wrapper to render page content as children (prop) within the Layout component, with Navbar above and Footer below
+// Exporting a GraphQL query that is asking for all the tags within the JSON object, content.
+// Passing in and destructuring the query prop

@@ -66,8 +66,8 @@ export const query = graphql`
 
 export default About
 
-// Page Component is importing the Layout component to render Navigation and Footer onto the page
-// the component is using the gatsby image plugin to render the StaticImage component with image props
-// the component is exporting a GraphQL query that is asking for a list of exercises, being filtered by the "featured" field type with a boolean status of "true".
-// the component is taking in and destructuring the query prop and filtering down into the exercises object
-// the component is importing the ExercisesList component, then passes the exercises object as a prop to ExercisesList
+// Using the Layout component as a wrapper to render page content as children (prop) within the Layout component, with Navbar above and Footer below
+// Using the gatsby image plugin to render the StaticImage component with image props
+// Exporting a GraphQL query that is asking for a list of exercises, being filtered by the "featured" field type with a boolean status of "true".
+// Passing in and destructuring the query prop and filtering down into the exercises object
+// Importing the ExercisesList component, then passing the exercises object as a prop to ExercisesList

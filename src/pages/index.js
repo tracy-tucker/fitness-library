@@ -30,7 +30,6 @@ export default function Home() {
   )
 }
 
-// Page is importing the Layout component to render basic page components of Navigation and Footer
-// Page using the gatsby image plugin
-// Utilizing StaticImage component with image props, as page is not needing a dynamic image.
-// Page is importing the AllExercises component to display a list of all exercises available in the database
+// Using the Layout component as a wrapper to render page content as children (prop) within the Layout component, with Navbar above and Footer
+// Using the gatsby image plugin to render the StaticImage component with image props
+// Importing the AllExercises component to display a list of all exercises available in the database

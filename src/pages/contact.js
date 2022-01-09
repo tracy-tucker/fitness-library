@@ -83,3 +83,8 @@ export const query = graphql`
 `
 
 export default Contact
+
+// Using the Layout component as a wrapper to render page content as children (prop) within the Layout component, with Navbar above and Footer below
+// Exporting a GraphQL query that is asking for a list of exercises, being filtered by the "featured" field type with a boolean status of "true".
+// Passing in and destructuring the query prop and filtering down into the exercises object
+// Importing the ExercisesList component, then passing the exercises object as a prop to ExercisesList

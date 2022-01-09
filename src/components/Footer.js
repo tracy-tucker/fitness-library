@@ -14,3 +14,6 @@ const Footer = () => {
 }
 
 export default Footer
+
+
+// Showing a simple footer with JS to updatde the copyright year of site

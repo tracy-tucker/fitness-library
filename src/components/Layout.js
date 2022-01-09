@@ -15,3 +15,6 @@ const Layout = ({ children }) => {
 }
 
 export default Layout
+
+// Importing both Navbar and Footer components
+// Passing in and destructuring page components as props to display Navbar and Footer on each page

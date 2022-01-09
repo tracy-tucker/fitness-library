@@ -57,27 +57,11 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
-    // <nav>
-    //   <FiAlignJustify />
-    //   <ul>
-    //     <li>
-    //       <Link to="/">Home</Link>
-    //     </li>
-    //     <li>
-    //       <Link to="/about">About</Link>
-    //     </li>
-    //     <li>
-    //       <Link to="/contact">Contact</Link>
-    //     </li>
-    //     <li>
-    //       <Link to="/exercises">Exercises</Link>
-    //     </li>
-    //     <li>
-    //       <Link to="/tags">Tags</Link>
-    //     </li>
-    //   </ul>
-    // </nav>
   )
 }
 
 export default Navbar
+
+// Setting up links for each Nav menu item within project
+// Setting up a ternary operator to add/remove className of "nav-links show-links" to add/remove styling that either shows or hides links
+// Utilizing the useState Hook to toggle the state of show for each link click
