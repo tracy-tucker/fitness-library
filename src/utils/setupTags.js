@@ -30,5 +30,6 @@ export default setupTags
 // if the allTags object has the tag property, then add tag +1 times to the object
 // if the allTags object does not have the tag property, create the property and set it equal to 1
 
-// Create a new array of tags (newTags) by using Object.entries, which returns an array of [key, value]
-// Using the sort method to then sort the resulted array
+// Create a new array of tags (newTags) by using Object.entries, which returns an array of [key, value] pair
+// Using the sort method to then sort the string value of the resulted array
+// Using localeCompare to return a number indicating whether the reference string comes before or after second
