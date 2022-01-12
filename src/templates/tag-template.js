@@ -40,4 +40,5 @@ export const query = graphql`
 
 export default TagTemplate
 
-// Programmatically creates pages
+// Programmatically creates individual tag pages
+// Invoking a GraphQL query asking for specific tag properties

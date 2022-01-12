@@ -136,5 +136,7 @@ export default ExerciseTemplate
 // Destructuring the content property within data to access additional properties
 // Using GatsbyImage to render dynamic images to the component, while utilizing the getImage helper function to avoid image render errors
 
+// Using the Layout component as a wrapper to render page content as children (prop) within the Layout component, with Navbar above and Footer below
+
 // Drilling down into the query result and creating a variable for exercises
 // Importing the ExercisesList component and passing in the exercises as a prop to this component

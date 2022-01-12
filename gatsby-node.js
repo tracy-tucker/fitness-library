@@ -1,10 +1,7 @@
-// This code runs once in the process of building the site
-// gatsby-node API will be used to create pages dynamically,
-// add data into GraphQL, or respond to events during
-// the build lifecycle.
-
 const path = require("path")
 const slugify = require("slugify")
+
+// Node JS syntax required
 exports.createPages = async ({ graphql, actions }) => {
   // destructuring action props
   const { createPage } = actions
@@ -40,3 +37,14 @@ exports.createPages = async ({ graphql, actions }) => {
     })
   })
 }
+
+// Using Gatsby Node API to dynamically build individual tag pages
+// This code runs once in the process during the build lifecycle
+// using the createPages built-in method
+// using async/await to return a promise, graphql and the actions object
+// destructuring action to access createPage
+// invoking graphql within the await promise to return a query for all tags
+// iterating over all nodes, then iterating over all tags to reach each tag
+// using slugify to create page path
+// using a component path to grab the correct page template
+// using the context property to explicitly pass in the variable of the name and value you are passing in to your template
