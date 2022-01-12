@@ -36,3 +36,6 @@ export default ExercisesList
 
 // Destructuring exercises with a default empty array to avoid render errors
 // Using GatsbyImage to render dynamic images to the component, while utilizing the getImage helper function to avoid image render errors
+// Creating a slug variable that calls the slugify method on the title property, transforming each result into a lowercased slug
+// Implementing slug within each Link
+

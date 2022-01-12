@@ -37,6 +37,6 @@ const AllExercises = () => {
 export default AllExercises
 
 // Running a GraphQL query asking for all exercises info, filtering by title in A-Z order
-// Creating the data variable to passing the query result
+// Creating the data variable and passing the query result
 // Drilling down into the query result and creating a variable for exercises
 // Importing the ExercisesList component and passing in the exercises as a prop to this component

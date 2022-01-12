@@ -104,6 +104,7 @@ const ExerciseTemplate = ({ data }) => {
   )
 }
 
+// Dynamic query
 export const query = graphql`
   query getSingleExercise($title: String) {
     contentfulExercise(title: { eq: $title }) {
@@ -128,3 +129,12 @@ export const query = graphql`
 `
 
 export default ExerciseTemplate
+
+// Gatsby dynamically creates pages based on the number of exercise entries and respective content in the DB (Contentful) - slug file name
+// Running a GraphQL query asking for single exercise info, specific to title
+// Destructuring the result and saving as the data variable
+// Destructuring the content property within data to access additional properties
+// Using GatsbyImage to render dynamic images to the component, while utilizing the getImage helper function to avoid image render errors
+
+// Drilling down into the query result and creating a variable for exercises
+// Importing the ExercisesList component and passing in the exercises as a prop to this component

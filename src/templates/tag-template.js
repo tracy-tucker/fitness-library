@@ -39,3 +39,5 @@ export const query = graphql`
 `
 
 export default TagTemplate
+
+// Programmatically creates pages
