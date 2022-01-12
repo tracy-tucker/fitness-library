@@ -29,4 +29,4 @@ export default TagsList
 // importing the setupTags function, creating a new array (newTags), then passing in the exercises object
 // iterating over newTags with map to return a new tag array with an index
 // Destructuring tag, then assigning key to index, and displaying the text and value elements on the page
-// 
+// Using slugify to create the correct page path

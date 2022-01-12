@@ -25,8 +25,8 @@ exports.createPages = async ({ graphql, actions }) => {
       const tagSlug = slugify(tag, { lower: true })
       createPage({
         // 3 properties are needed in order to create the page.
-        // path of the created page
-        // a component to populate the page
+        // - path of the created page
+        // - a component to populate the page
         // a variable to use in the query
         path: `tags/${tagSlug}`,
         component: path.resolve(`src/templates/tag-template.js`),
@@ -45,6 +45,6 @@ exports.createPages = async ({ graphql, actions }) => {
 // destructuring action to access createPage
 // invoking graphql within the await promise to return a query for all tags
 // iterating over all nodes, then iterating over all tags to reach each tag
-// using slugify to create page path
+// using slugify to create the correct page path
 // using a component path to grab the correct page template
-// using the context property to explicitly pass in the variable of the name and value you are passing in to your template
+// using the context property to explicitly pass in the variable name and value over to the page template

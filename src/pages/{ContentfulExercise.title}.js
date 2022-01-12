@@ -140,3 +140,5 @@ export default ExerciseTemplate
 
 // Drilling down into the query result and creating a variable for exercises
 // Importing the ExercisesList component and passing in the exercises as a prop to this component
+
+// Using slugify to create the correct page path

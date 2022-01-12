@@ -41,4 +41,5 @@ export const query = graphql`
 export default TagTemplate
 
 // Programmatically creates individual tag pages
-// Invoking a GraphQL query asking for specific tag properties
+// Invoking a GraphQL query asking for the matching tag and its properties (matching the tag being passed in)
+// Passing in the query result as data, and passing in the context tag object (pageContext) from gatsby-node.js
