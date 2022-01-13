@@ -88,3 +88,4 @@ export default Contact
 // Exporting a GraphQL query that is asking for a list of exercises, being filtered by the "featured" field type with a boolean status of "true".
 // Passing in and destructuring the query prop and filtering down into the exercises object
 // Importing the ExercisesList component, then passing the exercises object as a prop to ExercisesList
+// Passing in SEO component to render metadata to the page

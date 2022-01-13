@@ -33,3 +33,4 @@ export default function Home() {
 // Using the Layout component as a wrapper to render page content as children (prop) within the Layout component, with Navbar above and Footer
 // Using the gatsby image plugin to render the StaticImage component with image props
 // Importing the AllExercises component to display a list of all exercises available in the database
+// Passing in SEO component to render metadata to the page

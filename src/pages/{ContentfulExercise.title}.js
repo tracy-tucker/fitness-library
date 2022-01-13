@@ -142,3 +142,5 @@ export default ExerciseTemplate
 // Importing the ExercisesList component and passing in the exercises as a prop to this component
 
 // Using slugify to create the correct page path
+
+// Passing in SEO component to render metadata to the page

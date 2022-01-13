@@ -50,4 +50,5 @@ export default Tags
 // importing the setupTags function, creating a new array (newTags), then passing in the query result, data object
 // iterating over newTags with map to return a new tag array with an index
 // Destructuring tag, then assigning the key to index, and displaying the text and value elements on the page
-// Usins slugify to create the correct page path
+// Using slugify to create the correct page path
+// Passing in SEO component to render metadata to the page

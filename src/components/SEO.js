@@ -28,3 +28,10 @@ const SEO = ({ title, description }) => {
 }
 
 export default SEO
+
+// Importing Helmet from React to handle metadata
+// Creating a GraphQL query that is asking for site data, title and description
+// Passing in the destructured props, title and description, from the page
+// Also passing destructured results from GraphQL query
+// Rendering results within the Helmet component
+

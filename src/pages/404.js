@@ -17,3 +17,6 @@ const Error = () => {
 }
 
 export default Error
+
+// Passing in SEO component to render metadata to the page
+// Importing Layout component to wrap Navbar and Footer around page content
