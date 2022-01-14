@@ -12,20 +12,20 @@
   /* primary */
   --primary-0: #f0efff;
   /* --primary-50: #d8d6ff; */
-  --primary-50: #ebdf85;
+  --primary-50: #f59494;
   /* --primary-100: #c1beff; */
-  --primary-100: #f7ea8c;
+  --primary-100: #f19696;
   /* --primary-200: #aaa5ff; */
   --primary-200: #bb2020;
   --primary-300: #938dff;
   --primary-400: #7b74ff;
   /* main */
   /* --primary-500: #645cff; */
-  --primary-500: #ffeb4d;
+  --primary-500: #f35151;
   /* --primary-600: #554ed9; */
-  --primary-600: #ebd745;
+  --primary-600: #e42727;
   /* --primary-700: #4640b3; */
-  --primary-700: #d1c03d;
+  --primary-700: #a11a1a;
   --primary-800: #37338c;
   --primary-900: #282566;
   --primary-1000: #191740;
@@ -204,8 +204,8 @@ button,
   cursor: pointer;
   appearance: none;
   /* color: var(--white); */
-  color: var(--black);
-  background: var(--primary-500);
+  color: var(--white);
+  background: var(--primary-200);
   border: none;
   border-radius: var(--borderRadius);
   letter-spacing: var(--letterSpacing);
@@ -217,8 +217,8 @@ button,
 button:hover,
 .btn:hover {
   /* color: var(--white); */
-  color: var(--black);
-  background: var(--primary-700);
+  color: var(--white);
+  background: var(--black);
   box-shadow: var(--shadow-2);
 }
 button.small {
@@ -400,6 +400,7 @@ form > *:last-child {
   color: var(--white);
   background: var(--primary-200);
   border-radius: 5px;
+  width: 200px;
 }
 .contact-link {
   display: flex;
