@@ -6,11 +6,13 @@
 ### OVERVIEW
 Welcome to 🔥 **Spark Fitness** 🔥 - a highly organized fitness library to get you moving quickly!
 
-*Purpose:* The library is perfect for you, the fitness warrior, with a busy schedule. The exercise cards are organized in an easy-to-navigate style to help you quickly find all the information you need to get you moving.
+💥 *Purpose:* The library is perfect for you, the fitness warrior, with a busy schedule. The exercise cards are organized in an easy-to-navigate style to help you quickly find all the information you need to get you moving.
 
-The home page provides exercise tags that help the fitness warrior quickly identify the number of exercises available for each area of the body. This page also displays a list of individual exercises with recommended sets and reps so the warrior can dive right in and choose an exercise to get moving.
+💥 *A Quick Glance:* The home page provides exercise _TAGS_ that help the fitness warrior quickly identify the number of exercises available for each area of the body. This page also displays a list of individual _EXERCISE CARDS_ with a quick reference to recommended sets and reps so the warrior can dive right in and choose an exercise to get moving.
 
-Fitness warriors are welcome to slow down and navigate the site a bit more. Under the navigation, you will find the _Exercises_ and _Tags_ pages.
+💥 *Dive Deeper:* Open the exercise cards and you will find loads of info in an easy-to-read layout. The fitness library system gathers each 
+
+Each card provides with a description, quick info on the sets, repetitions and execution time, step-byinstructions, setup steps and ex
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
