@@ -19,8 +19,8 @@ export default function Home() {
           ></StaticImage>
           <div className="hero-container">
             <div className="hero-text">
-              <h1>Fun Fitness</h1>
-              <h4>Making fitness... Fun!</h4>
+              <h1>Spark Fitness</h1>
+              <h4>Get - Fired - Up!</h4>
             </div>
           </div>
         </header>
