@@ -8,20 +8,20 @@ Welcome to 🔥 **Spark Fitness** 🔥 - a highly organized fitness library to g
 
 💥 **Purpose:** The library is perfect for you, the fitness warrior, with a busy schedule. The exercise cards are organized in an easy-to-navigate style to help you quickly find all the information you need to get you moving.
 
-💥 **A Quick Glance:** The home page provides exercise **_TAGS_** that help the fitness warrior quickly identify the number of exercises available for each area of the body. This page also displays a list of individual **_EXERCISE CARDS_** with a quick reference to recommended sets and reps so the warrior can dive right in and choose an exercise to get moving.
+💥 **A Quick Glance:** The home page provides exercise **_TAGS_** that help the fitness warrior quickly identify the number of exercises available for each area of the body. This page also displays a list of individual **_EXERCISE CARDS_** with a quick reference to recommended **_SETS_** and **_REPS_** so the warrior can dive right in and choose an exercise to get moving.
 
 💥 **Dive Deeper:** Open the exercise cards and you will find loads of info in an easy-to-read layout. The fitness library systematically pulls in all related info specific to each exercise and renders the collection within a clean, responsive format that flows for all screen sizes:
-* a quick **_DESCRIPTION_** of the exercise
+* Quick **_DESCRIPTION_** of the exercise
 * Recommended **_REPS_**, **_EXECUTION TIME_** and **_SETS_** with identifiable icons
-* A collection of **_TAGS_** related to the exercise
-* A list of step-by-step **_INSTRUCTIONS_**
+* Collection of **_TAGS_** related to the exercise
+* List of step-by-step **_INSTRUCTIONS_**
 * A **_SETUP_** list
-* The list of **_TOOLS_** needed to complete the exercise
+* List of **_TOOLS_** needed to complete the exercise
 
-💥 **Other Pages:** Feel free to Read more **_ABOUT US_**, or submit the live **_CONTACT_** form. Each of these pages also reference access to **_FEATURED_** exercise cards to help you jump right back into tackling your workouts.
+💥 **Other Pages:** Feel free to Read more **_ABOUT_** us, or submit the live **_CONTACT_** form. Each of these pages also filters in **_FEATURED_** exercise cards to help you jump right back into tackling your workouts.
 
 ### BEHIND THE SCENES
-start here
+🔥 **Spark Fitness** 🔥 is made possible by utilizing the Javascript library, **_REACT_**, combined with the power of **_GATSBY_** a powerful static site generator.
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
