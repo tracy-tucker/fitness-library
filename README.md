@@ -6,17 +6,22 @@
 ### OVERVIEW
 Welcome to 🔥 **Spark Fitness** 🔥 - a highly organized fitness library to get you moving quickly!
 
-💥 *Purpose:* The library is perfect for you, the fitness warrior, with a busy schedule. The exercise cards are organized in an easy-to-navigate style to help you quickly find all the information you need to get you moving.
+💥 **Purpose:** The library is perfect for you, the fitness warrior, with a busy schedule. The exercise cards are organized in an easy-to-navigate style to help you quickly find all the information you need to get you moving.
 
-💥 *A Quick Glance:* The home page provides exercise _TAGS_ that help the fitness warrior quickly identify the number of exercises available for each area of the body. This page also displays a list of individual _EXERCISE CARDS_ with a quick reference to recommended sets and reps so the warrior can dive right in and choose an exercise to get moving.
+💥 **A Quick Glance:** The home page provides exercise **_TAGS_** that help the fitness warrior quickly identify the number of exercises available for each area of the body. This page also displays a list of individual **_EXERCISE CARDS_** with a quick reference to recommended sets and reps so the warrior can dive right in and choose an exercise to get moving.
 
-💥 *Dive Deeper:* Open the exercise cards and you will find loads of info in an easy-to-read layout. The fitness library system swiftly pulls in all related info to a specific exercise and displays the information in a format within a clean, responsive format readable on desktop or mobile:
-* Description
-* Repetitions, Execution Time and Sets
-* Tags related to the exercise
-* Instructions
+💥 **Dive Deeper:** Open the exercise cards and you will find loads of info in an easy-to-read layout. The fitness library systematically pulls in all related info specific to each exercise and renders the collection within a clean, responsive format that flows for all screen sizes:
+* a quick **_DESCRIPTION_** of the exercise
+* Recommended **_REPS_**, **_EXECUTION TIME_** and **_SETS_** with identifiable icons
+* A collection of **_TAGS_** related to the exercise
+* A list of step-by-step **_INSTRUCTIONS_**
+* A **_SETUP_** list
+* The list of **_TOOLS_** needed to complete the exercise
 
-Each card provides with a description, quick info on the sets, repetitions and execution time, step-byinstructions, setup steps and ex
+💥 **Other Pages:** Feel free to Read more **_ABOUT US_**, or submit the live **_CONTACT_** form. Each of these pages also reference access to **_FEATURED_** exercise cards to help you jump right back into tackling your workouts.
+
+### BEHIND THE SCENES
+start here
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
