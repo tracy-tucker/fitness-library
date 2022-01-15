@@ -4,7 +4,7 @@
 ***
 
 ### OVERVIEW
-Welcome to **Spark Fitness** - a highly organized fitness library to get you moving quickly!
+Welcome to 🔥 **Spark Fitness** 🔥 - a highly organized fitness library to get you moving quickly!
 
 *Purpose:* The library is perfect for you, the fitness warrior, with a busy schedule. The exercise cards are organized in an easy-to-navigate style to help you quickly find all the information you need to get you moving.
 
