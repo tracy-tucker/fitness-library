@@ -1,5 +1,5 @@
-# Spark Fitness
-## Get - Fired - Up!
+# 🔥 Spark Fitness 🔥 | Get - Fired - Up!
+[Logo]()
 ***
 ***
 
@@ -10,7 +10,11 @@ Welcome to 🔥 **Spark Fitness** 🔥 - a highly organized fitness library to g
 
 💥 *A Quick Glance:* The home page provides exercise _TAGS_ that help the fitness warrior quickly identify the number of exercises available for each area of the body. This page also displays a list of individual _EXERCISE CARDS_ with a quick reference to recommended sets and reps so the warrior can dive right in and choose an exercise to get moving.
 
-💥 *Dive Deeper:* Open the exercise cards and you will find loads of info in an easy-to-read layout. The fitness library system gathers each 
+💥 *Dive Deeper:* Open the exercise cards and you will find loads of info in an easy-to-read layout. The fitness library system swiftly pulls in all related info to a specific exercise and displays the information in a format within a clean, responsive format readable on desktop or mobile:
+* Description
+* Repetitions, Execution Time and Sets
+* Tags related to the exercise
+* Instructions
 
 Each card provides with a description, quick info on the sets, repetitions and execution time, step-byinstructions, setup steps and ex
 
