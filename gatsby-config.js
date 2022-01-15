@@ -12,8 +12,8 @@ require("dotenv").config({
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: "Fun Fitness",
-    description: "Making fitness fun for everyone",
+    title: "Spark Fitness",
+    description: "Get - Fired - Up!",
     author: "Tracy Tucker",
     person: {
       name: "jane",

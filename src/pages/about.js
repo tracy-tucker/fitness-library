@@ -37,7 +37,7 @@ const About = ({
           />
         </section>
         <section className="featured-exercises">
-          <h5>Check out these moves!</h5>
+          <h5>Check out these Featured moves!</h5>
           <ExercisesList exercises={exercises} />
         </section>
       </main>

@@ -55,7 +55,7 @@ const Contact = ({ data }) => {
           </article>
         </section>
         <section className="featured-exercises">
-          <h5>Check out these moves!</h5>
+          <h5>Check out these featured moves!</h5>
           <ExercisesList exercises={exercises} />
         </section>
       </main>

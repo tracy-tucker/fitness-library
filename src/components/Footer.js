@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="page-footer">
       <p>
-        &copy; {new Date().getFullYear()} <span>Fitness Library</span> built with{" "}
+        &copy; {new Date().getFullYear()} <span>Spark Fitness</span> built with{" "}
         <a href="https://www.gatsbyjs.com/" target="_blank" rel="noreferrer">
           Gatsby
         </a>
@@ -16,4 +16,4 @@ const Footer = () => {
 export default Footer
 
 
-// Showing a simple footer with JS to updatde the copyright year of site
+// Showing a simple footer with JS to update the copyright year of site
