@@ -31,6 +31,8 @@ The frontend is connected to the headless CMS tool, **_CONTENTFUL_**. Contentful
 
 This project is also integrated with the Gatsby Node API in order to dynamically create the **_TAG_** pages. The built-in helper method, `CreatePages`, asynchronously invokes a database query that then uses the `tag` result to create a `tagSlug` variable that gets resolved over at the `tag-template.js` file, and passes in the `tag` key/value pair.
 
+This project is also utilizing React Helmet to manage head content for the project. The contact form is connected to FormSpree to handle form submissions.
+
 🔥 **Spark Fitness** 🔥 is connected to the web hosting infrastructure, Netlify. Through this project's Github repository, Netlify selects the best CDN and distributes the content on its own microservices. This creates a pre-built, faster loading website.
 
 💥 **Where to Go from Here:** Freely explore all files within the `src` folder in the Github repo. If so inclined, feel free to clone this repository to START HERE!!!
