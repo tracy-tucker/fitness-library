@@ -21,13 +21,17 @@ Welcome to 🔥 **Spark Fitness** 🔥 - a highly organized fitness library to g
 💥 **Other Pages:** Feel free to Read more **_ABOUT_** us, or submit the live **_CONTACT_** form. Each of these pages also filters in **_FEATURED_** exercise cards to help you jump right back into tackling your workouts.
 
 ### BEHIND THE SCENES
-🔥 **Spark Fitness** 🔥 is made possible by utilizing the Javascript library, **_REACT_**, combined with the power of the **_GATSBY_** framework - a powerful static site generator.
+🔥 **Spark Fitness** 🔥 is made possible by utilizing the Javascript library, **_REACT_**, combined with the power of the framework, **_GATSBY_** - a powerful static site generator.
 
 The frontend is connected to the headless CMS tool, **_CONTENTFUL_**. Contentful comprises the project data structure which consists of content types such as string, integer, media, boolean and JSON object.
 
+🔥 **Spark Fitness** 🔥 communicates with the data by utilizing the query language, GraphQL. Components throughout the project invoke queries requesting specific data objects that then get destructured and called to render iterated lists of information.
 
-explain using Gatsby's buit-in GraphQL/GraphiQL
-explain using Gatsby Node API
+This project is also integrated with the Gatsby Node API in order to dynamically create the **_TAG_** pages. The built-in helper method, `CreatePages`, asynchronously invokes a database query that then uses the `tag` result to create a `tagSlug` variable that gets resolved over at the `tag-template.js` file, and passes in the `tag` key/value pair.
+
+🔥 **Spark Fitness** 🔥 is connected to the web hosting infrastructure, Netlify. Through this project's Github repository, Netlify selects the best CDN and distributes the content on its own microservices. This creates a pre-built, faster loading website.
+
+💥 **Where to Go from Here:** Freely explore all files within the `src` folder in the Github repo. If so inclined, feel free to clone this repository to START HERE!!!
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
