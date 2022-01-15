@@ -13,7 +13,7 @@ Welcome to 🔥 **Spark Fitness** 🔥 - a highly organized fitness library to g
 💥 **Dive Deeper:** Open the exercise cards and you will find loads of info in an easy-to-read layout. The fitness library systematically pulls in all related info specific to each exercise and renders the collection within a clean, responsive format that flows for all screen sizes:
 * Quick **_DESCRIPTION_** of the exercise
 * Recommended **_REPS_**, **_EXECUTION TIME_** and **_SETS_** with identifiable icons
-* Collection of **_TAGS_** related to the exercise
+* Collection of **_TAGS_** in relation to the exercise
 * List of step-by-step **_INSTRUCTIONS_**
 * A **_SETUP_** list
 * List of **_TOOLS_** needed to complete the exercise
@@ -21,7 +21,13 @@ Welcome to 🔥 **Spark Fitness** 🔥 - a highly organized fitness library to g
 💥 **Other Pages:** Feel free to Read more **_ABOUT_** us, or submit the live **_CONTACT_** form. Each of these pages also filters in **_FEATURED_** exercise cards to help you jump right back into tackling your workouts.
 
 ### BEHIND THE SCENES
-🔥 **Spark Fitness** 🔥 is made possible by utilizing the Javascript library, **_REACT_**, combined with the power of **_GATSBY_** a powerful static site generator.
+🔥 **Spark Fitness** 🔥 is made possible by utilizing the Javascript library, **_REACT_**, combined with the power of the **_GATSBY_** framework - a powerful static site generator.
+
+The frontend is connected to the headless CMS tool, **_CONTENTFUL_**. Contentful comprises the project data structure which consists of content types such as string, integer, media, boolean and JSON object.
+
+
+explain using Gatsby's buit-in GraphQL/GraphiQL
+explain using Gatsby Node API
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
