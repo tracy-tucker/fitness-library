@@ -7,7 +7,7 @@ SEE THE [SITE LIVE](https://spark-fitness.netlify.app/ "Spark Fitness")
 
 ### OVERVIEW
 
-<!-- HOME screenshot goes here -->
+<!-- HOME screenshot goes here NEED NEW LOGO-->
 
 Welcome to 🔥 **Spark Fitness** 🔥 - a highly organized fitness library to get you moving quickly!
 
@@ -31,7 +31,7 @@ Welcome to 🔥 **Spark Fitness** 🔥 - a highly organized fitness library to g
 
 ### BEHIND THE SCENES
 
-<!-- CODE screenshot goes here -->
+<!-- React and GraphQL logos goes here -->
 
 🔥 **Spark Fitness** 🔥 is made possible by utilizing the Javascript library, **_REACT_**, combined with the power of the framework, **_GATSBY_** - a powerful static site generator.
 
