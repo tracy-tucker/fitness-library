@@ -24,41 +24,47 @@ const ExerciseTemplate = ({ data }) => {
       <main className="page">
         <div className="exercise-page">
           {/* hero */}
-          <GatsbyImage image={pathToImage} alt={title} className="about-img" />
-          <article className="exercise-info">
-            <h2>{title}</h2>
-            <p>{description}</p>
-            <div className="exercise-icons">
+          <section className="exercise-hero">
+            <GatsbyImage
+              image={pathToImage}
+              alt={title} 
+              className="about-img"
+            />
+            <article className="exercise-info">
+              <h2>{title}</h2>
+              <p>{description}</p>
+              {/* icons */}
+              <div className="exercise-icons">
+                <article>
+                  <BsClock />
+                  <h5>repetitions</h5>
+                  <p>{repetitions}</p>
+                </article>
+                <article>
+                  <BsClockHistory />
+                  <h5>execution time</h5>
+                  <p>{executionTime}</p>
+                </article>
+                <article>
+                  <BsPeople />
+                  <h5>sets</h5>
+                  <p>{sets}</p>
+                </article>
+              </div>
               {/* tags */}
-              <article>
-                <BsClock />
-                <h5>repetitions</h5>
-                <p>{repetitions}</p>
-              </article>
-              <article>
-                <BsClockHistory />
-                <h5>execution time</h5>
-                <p>{executionTime}</p>
-              </article>
-              <article>
-                <BsPeople />
-                <h5>sets</h5>
-                <p>{sets}</p>
-              </article>
-            </div>
-            <p className="exercise-tags">
-              Tags :
-              {tags.map((tag, index) => {
-                const slug = slugify(tag, { lower: true })
-                return (
-                  <Link to={`/tags/${slug}`} key={index}>
-                    {tag}
-                  </Link>
-                )
-              })}
-            </p>
-          </article>
-          <section className="exercise-hero"></section>
+              <p className="exercise-tags">
+                Tags :
+                {tags.map((tag, index) => {
+                  const slug = slugify(tag, { lower: true })
+                  return (
+                    <Link to={`/tags/${slug}`} key={index}>
+                      {tag}
+                    </Link>
+                  )
+                })}
+              </p>
+            </article>
+          </section>
           {/* rest of content */}
           <section className="exercise-content">
             <article>

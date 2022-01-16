@@ -6,11 +6,18 @@
 SEE THE [SITE LIVE](https://spark-fitness.netlify.app/ "Spark Fitness")
 
 ### OVERVIEW
+
+<!-- HOME screenshot goes here -->
+
 Welcome to 🔥 **Spark Fitness** 🔥 - a highly organized fitness library to get you moving quickly!
 
 💥 **Purpose:** The library is perfect for you, the fitness warrior, with a busy schedule. The exercise cards are organized in an easy-to-navigate style to help you quickly find all the information you need to get you moving.
 
+<!-- TAGS and EXERCISE CARDS screenshots goes here -->
+
 💥 **A Quick Glance:** The home page provides exercise **_TAGS_** that help the fitness warrior quickly identify the number of exercises available for each area of the body. This page also displays a list of individual **_EXERCISE CARDS_** with a quick reference to recommended **_SETS_** and **_REPS_** so the warrior can dive right in and choose an exercise to get moving.
+
+<!-- FULL EXERCISE CARD screenshot goes here -->
 
 💥 **Dive Deeper:** Open the exercise cards and you will find loads of info in an easy-to-read layout. The fitness library systematically pulls in all related info specific to each exercise and renders the collection within a clean, responsive format that flows for all screen sizes:
 * Quick **_DESCRIPTION_** of the exercise
@@ -23,17 +30,30 @@ Welcome to 🔥 **Spark Fitness** 🔥 - a highly organized fitness library to g
 💥 **Other Pages:** Feel free to Read more **_ABOUT_** us, or submit the live **_CONTACT_** form. Each of these pages also filters in **_FEATURED_** exercise cards to help you jump right back into tackling your workouts.
 
 ### BEHIND THE SCENES
+
+<!-- CODE screenshot goes here -->
+
 🔥 **Spark Fitness** 🔥 is made possible by utilizing the Javascript library, **_REACT_**, combined with the power of the framework, **_GATSBY_** - a powerful static site generator.
+
+<!-- CONTENTFUL screenshot goes here -->
 
 The frontend is connected to the headless CMS tool, **_CONTENTFUL_**. Contentful comprises the project data structure which consists of content types such as string, integer, media, boolean and JSON object.
 
+<!-- GRAPHQL screenshot goes here -->
+
 🔥 **Spark Fitness** 🔥 communicates with the data by utilizing the query language, GraphQL. Components throughout the project invoke queries requesting specific data objects that then get destructured and called to render iterated lists of information.
+
+<!-- CODE screenshot goes here -->
 
 This project is also integrated with the Gatsby Node API in order to dynamically create the **_TAG_** pages. The built-in helper method, `CreatePages`, asynchronously invokes a database query that then uses the `tag` result to create a `tagSlug` variable that gets resolved over at the `tag-template.js` file, and passes in the `tag` key/value pair.
 
 This project is also utilizing React Helmet to manage head content for the project. The contact form is connected to FormSpree to handle form submissions.
 
+<!-- Netlify screenshot goes here -->
+
 🔥 **Spark Fitness** 🔥 is connected to the web hosting infrastructure, Netlify. Through this project's Github repository, Netlify selects the best CDN and distributes the content on its own microservices. This creates a pre-built, faster loading website.
+
+<!-- CODE FILES screenshot goes here -->
 
 💥 **Where to Go from Here:** Freely explore all files within the `src` folder in the Github repo. If so inclined, feel free to clone this repository to START HERE!!!
 
