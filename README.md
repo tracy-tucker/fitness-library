@@ -19,6 +19,7 @@ Welcome to 🔥 **Spark Fitness** 🔥 - a highly organized fitness library to g
 💥 **A Quick Glance:** The home page provides exercise **_TAGS_** that help the fitness warrior quickly identify the number of exercises available for each area of the body. This page also displays a list of individual **_EXERCISE CARDS_** with a quick reference to recommended **_SETS_** and **_REPS_** so the warrior can dive right in, choose an exercise and get moving.
 
 <!-- FULL EXERCISE CARD screenshot goes here -->
+![Exercise Card Details](https://res.cloudinary.com/tracyt/image/upload/v1643137530/exercise-card-detail_bzxqlt.png)
 
 💥 **Dive Deeper:** Open the exercise cards and you will find loads of info in an easy-to-read layout. The fitness library systematically pulls in all related info specific to each exercise and renders the collection within a clean, responsive format that flows for all screen sizes:
 * Quick **_DESCRIPTION_** of the exercise
@@ -33,26 +34,29 @@ Welcome to 🔥 **Spark Fitness** 🔥 - a highly organized fitness library to g
 ### BEHIND THE SCENES
 
 <!-- React and GraphQL logos goes here -->
+![React, Gatsby and GraphQL logos](https://res.cloudinary.com/tracyt/image/upload/v1643137654/react-gatsby-graphql-logos_r1m3ux.png)
 
 🔥 **Spark Fitness** 🔥 is made possible by utilizing the Javascript library, **_REACT_**, combined with the sophistication of the framework, **_GATSBY_** - a powerful static site generator.
 
+🔥 **Spark Fitness** 🔥 communicates with the data by utilizing the query language, GraphQL. Components throughout the project invoke queries requesting specific data objects that then get destructured and called to render iterated lists of information.
+
 <!-- CONTENTFUL screenshot goes here -->
+![Contentful logo](https://res.cloudinary.com/tracyt/image/upload/v1643137759/contentful-logo_hvw3mt.jpg)
 
 This is connected to the headless CMS tool, **_CONTENTFUL_**. Contentful comprises the project data structure which consists of content types such as string, integer, media, boolean and JSON object.
 
-<!-- GRAPHQL screenshot goes here -->
-
-🔥 **Spark Fitness** 🔥 communicates with the data by utilizing the query language, GraphQL. Components throughout the project invoke queries requesting specific data objects that then get destructured and called to render iterated lists of information.
-
 <!-- CODE screenshot goes here -->
+![Gatsby Node API example](https://res.cloudinary.com/tracyt/image/upload/v1643137871/gatsby-node-api_litnrg.png)
 
 This project is integrated with the Gatsby Node API in order to dynamically create the **_TAG_** pages. It also utilizes React Helmet to manage head content for the project. The contact form is connected to FormSpree to handle form submissions.
 
 <!-- Netlify screenshot goes here -->
+![Netlify logo](https://res.cloudinary.com/tracyt/image/upload/v1643137925/netlify-logo_lf8cts.png)
 
 🔥 **Spark Fitness** 🔥 is connected to the web hosting infrastructure, Netlify. Through this project's Github repository, Netlify selects the best CDN and distributes the content on its own microservices. This creates a pre-built, faster loading website.
 
 <!-- CODE FILES screenshot goes here -->
+![Src code screenshot](https://res.cloudinary.com/tracyt/image/upload/v1643138005/src-code_g5kjie.png)
 
 💥 **Where to Go from Here:** Freely explore all files within the `src` folder in the Github repo. If so inclined, feel free to clone this repository. Be sure to install all dependencies. Keep in mind, that you would need to create your own Contentful account in order to create and manage content data.
 
