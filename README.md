@@ -16,7 +16,7 @@ Welcome to 🔥 **Spark Fitness** 🔥 - a highly organized fitness library to g
 <!-- TAGS and EXERCISE CARDS screenshots goes here -->
 ![Tags and Exercise Cards](https://res.cloudinary.com/tracyt/image/upload/v1643136913/tags-exercise-cards_upiyyg.png)
 
-💥 **A Quick Glance:** The home page provides exercise **_TAGS_** that help the fitness warrior quickly identify the number of exercises available for each area of the body. This page also displays a list of individual **_EXERCISE CARDS_** with a quick reference to recommended **_SETS_** and **_REPS_** so the warrior can dive right in and choose an exercise to get moving.
+💥 **A Quick Glance:** The home page provides exercise **_TAGS_** that help the fitness warrior quickly identify the number of exercises available for each area of the body. This page also displays a list of individual **_EXERCISE CARDS_** with a quick reference to recommended **_SETS_** and **_REPS_** so the warrior can dive right in, choose an exercise and get moving.
 
 <!-- FULL EXERCISE CARD screenshot goes here -->
 
