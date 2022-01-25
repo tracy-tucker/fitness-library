@@ -56,7 +56,8 @@ This project is integrated with the Gatsby Node API in order to dynamically crea
 🔥 **Spark Fitness** 🔥 is connected to the web hosting infrastructure, Netlify. Through this project's Github repository, Netlify selects the best CDN and distributes the content on its own microservices. This creates a pre-built, faster loading website.
 
 <!-- CODE FILES screenshot goes here -->
-![Src code screenshot](https://res.cloudinary.com/tracyt/image/upload/v1643138005/src-code_g5kjie.png)
+![Src code screenshot](https://res.cloudinary.com/tracyt/image/upload/v1643138005/src-code_g5kjie.png width="300")
+<img src="https://res.cloudinary.com/tracyt/image/upload/v1643138005/src-code_g5kjie.png" width="300" />
 
 💥 **Where to Go from Here:** Freely explore all files within the `src` folder in the Github repo. If so inclined, feel free to clone this repository. Be sure to install all dependencies. Keep in mind, that you would need to create your own Contentful account in order to create and manage content data.
 
