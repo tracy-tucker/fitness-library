@@ -3,7 +3,7 @@
 ***
 ***
 
-SEE THE [SITE LIVE](https://spark-fitness.netlify.app/ "Spark Fitness" target="_blank")
+SEE THE [SITE LIVE](https://spark-fitness.netlify.app/ "Spark Fitness")
 
 ### OVERVIEW
 
