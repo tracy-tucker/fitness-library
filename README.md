@@ -34,9 +34,7 @@ Welcome to 🔥 **Spark Fitness** 🔥 - a highly organized fitness library to g
 ### BEHIND THE SCENES
 
 <!-- React and GraphQL logos goes here -->
-![React, Gatsby and GraphQL logos](https://res.cloudinary.com/tracyt/image/upload/v1643137654/react-gatsby-graphql-logos_r1m3ux.png)
-
-<img src="https://res.cloudinary.com/tracyt/image/upload/v1643137654/react-gatsby-graphql-logos_r1m3ux.png" width="200">
+<img src="https://res.cloudinary.com/tracyt/image/upload/v1643137654/react-gatsby-graphql-logos_r1m3ux.png" width="200" alt="React, Gatsby and GraphQL logos">
 
 🔥 **Spark Fitness** 🔥 is made possible by utilizing the Javascript library, **_REACT_**, combined with the sophistication of the framework, **_GATSBY_** - a powerful static site generator.
 
