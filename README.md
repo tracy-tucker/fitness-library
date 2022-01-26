@@ -19,7 +19,7 @@ Welcome to 🔥 **Spark Fitness** 🔥 - a highly organized fitness library to g
 💥 **A Quick Glance:** The home page provides exercise **_TAGS_** that help the fitness warrior quickly identify the number of exercises available for each area of the body. This page also displays a list of individual **_EXERCISE CARDS_** with a quick reference to recommended **_SETS_** and **_REPS_** so the warrior can dive right in, choose an exercise and get moving.
 
 <!-- FULL EXERCISE CARD screenshot goes here -->
-<img src="https://res.cloudinary.com/tracyt/image/upload/v1643137530/exercise-card-detail_bzxqlt.png" width="600" alt="Exercise Card Details">
+<img src="https://res.cloudinary.com/tracyt/image/upload/v1643155964/exercise-card-detail_pzjhbn.png" width="600" alt="Exercise Card Details">
 
 💥 **Dive Deeper:** Open the exercise cards and you will find loads of info in an easy-to-read layout. The fitness library systematically pulls in all related info specific to each exercise and renders the collection within a clean, responsive format that flows for all screen sizes:
 * Quick **_DESCRIPTION_** of the exercise
