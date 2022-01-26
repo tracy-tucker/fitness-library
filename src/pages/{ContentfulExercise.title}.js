@@ -2,7 +2,9 @@ import React from "react"
 import { graphql, Link } from "gatsby"
 import Layout from "../components/Layout"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
-import { BsClockHistory, BsClock, BsPeople } from "react-icons/bs"
+import { BsClockHistory } from "react-icons/bs"
+import { BiDumbbell } from "react-icons/bi"
+import { AiOutlineNumber } from "react-icons/ai"
 import slugify from "slugify"
 import SEO from "../components/SEO"
 
@@ -36,7 +38,7 @@ const ExerciseTemplate = ({ data }) => {
               {/* icons */}
               <div className="exercise-icons">
                 <article>
-                  <BsClock />
+                  <AiOutlineNumber />
                   <h5>repetitions</h5>
                   <p>{repetitions}</p>
                 </article>
@@ -46,7 +48,7 @@ const ExerciseTemplate = ({ data }) => {
                   <p>{executionTime}</p>
                 </article>
                 <article>
-                  <BsPeople />
+                  <BiDumbbell />
                   <h5>sets</h5>
                   <p>{sets}</p>
                 </article>
