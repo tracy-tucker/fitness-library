@@ -1,13 +1,12 @@
 # 🔥 Spark Fitness 🔥 | Get - Fired - Up!
-[Logo]()
-***
-***
+<img src="https://res.cloudinary.com/tracyt/image/upload/v1643381211/spark-fitness-logo_ofo1bk.png" width="600" alt="Spark Fitness logo">
 
 SEE THE [SITE LIVE](https://spark-fitness.netlify.app/ "Spark Fitness")
 
 ### OVERVIEW
 
-<!-- HOME screenshot goes here NEED NEW LOGO-->
+<!-- HOME screenshot goes here -->
+<img src="https://res.cloudinary.com/tracyt/image/upload/v1643380170/spark-fitness-home_dg9l7u.png" width="600" alt="Spark Fitness Home screenshot">
 
 Welcome to 🔥 **Spark Fitness** 🔥 - a highly organized fitness library to get you moving quickly!
 
