@@ -1,5 +1,5 @@
 # 🔥 Spark Fitness 🔥 | Get - Fired - Up!
-<img src="https://res.cloudinary.com/tracyt/image/upload/v1643381211/spark-fitness-logo_ofo1bk.png" width="600" alt="Spark Fitness logo">
+<img src="https://res.cloudinary.com/tracyt/image/upload/v1643381211/spark-fitness-logo_ofo1bk.png" width="244" alt="Spark Fitness logo">
 
 SEE THE [SITE LIVE](https://spark-fitness.netlify.app/ "Spark Fitness")
 
